@@ -2,8 +2,8 @@ from __future__ import annotations
 from typing import Optional
 from datetime import date
 
-from allocation.model import OrderLine
-from allocation import model, unit_of_work
+from src.allocation.model import OrderLine
+from src.allocation import model, unit_of_work
 
 
 

@@ -1,6 +1,6 @@
 # pylint: disable=protected-access
-from allocation import model
-from allocation import repository
+from src.allocation import model
+from src.allocation import repository
 
 def test_repository_can_save_a_batch(session):
     batch = model.Batch("batch1", "RUSTY-SOAPDISH", 100, eta=None)

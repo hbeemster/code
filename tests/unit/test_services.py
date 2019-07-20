@@ -1,5 +1,5 @@
 import pytest
-from allocation import repository, services, unit_of_work
+from src.allocation import repository, services, unit_of_work
 
 
 class FakeRepository(repository.AbstractRepository):

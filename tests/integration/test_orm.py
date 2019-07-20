@@ -1,4 +1,4 @@
-from allocation import model
+from src.allocation import model
 from datetime import date
 
 def test_orderline_mapper_can_load_lines(session):

@@ -1,6 +1,6 @@
 import pytest
-from allocation import model
-from allocation import unit_of_work
+from src.allocation import model
+from src.allocation import unit_of_work
 
 def insert_batch(session, ref, sku, qty, eta):
     session.execute(

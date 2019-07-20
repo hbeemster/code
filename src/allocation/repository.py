@@ -1,5 +1,5 @@
 import abc
-from allocation import model
+from src.allocation import model
 
 
 class AbstractRepository(abc.ABC):
