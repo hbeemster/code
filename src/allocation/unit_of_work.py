@@ -35,7 +35,7 @@ class AbstractUnitOfWork(abc.ABC):
 
 
 DEFAULT_SESSION_FACTORY = sessionmaker(bind=create_engine(
-    config.get_postgres_uri(),
+    config.get_database_uri(),
 ))
 
 class SqlAlchemyUnitOfWork(AbstractUnitOfWork):

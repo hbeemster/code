@@ -7,6 +7,7 @@ verify_ssl = true
 flask = "*"
 sqlalchemy = "*"
 psycopg2-binary = "*"
+mysqlclient = "*"
 
 [dev-packages]
 pytest = "*"
